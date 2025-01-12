@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width: 1060px) {
+    .container {
+        width: 90%; /* static width container always stays at this width no matter what the window size */
+    }
+
+    ul#menu li a.button {
+        padding: 20px 75px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+
+    #title-page {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    #splash{
+        height: 748px;
+        background-size: 1060px;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+@media screen and (max-width:767px) {
+    ul#menu li a.button {
+        padding: 20px 32px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #title-page {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #splash {
+        height: 542px;
+        background-size: 767px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul#menu li a.button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    #title-page {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #splash {
+        height: 340px;
+        background-size: 480px;
+    }
+}
